@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Table</title>
+    <style>
+        .table,.td{
+            border-collapse: collapse;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .table{
+            width: 100%;
+            margin: 0 auto;
+            border: 2px solid #ececec;
+        }
+        .tr,.td{
+            border: 2px solid #ececec;
+        }
+        .th{
+            background-color: #3b82f6;
+            padding: 5px;
+            color: #fff;
+            border: 2px solid #ececec;
+            font-size: 14px;
+            font-weight: bold;
+        }
+        .td{
+            padding: 10px;
+            color: #000;
+            font-size: 14px;
+        }
+        .item-name{
+            width: 50%;
+        }
+        .text-middle{
+            text-align: center;
+        }
+        .text-left{
+            text-align: left;
+            width: 40%;
+        }
+    </style>
+</head>
+<body>
+    <table class="table">
+        <thead>
+            <tr class="tr">
+                <th class="th">Item ID</th>
+                <th class="text-left th">Item Name</th>
+                <th class="text-middle th">Available Quantity</th>
+                <th class="text-middle th">Total Quantity</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="tr">
+                <td class="text-middle td">01</td>
+                <td>Pen</td>
+                <td class="text-middle td">78</td>
+                <td class="text-middle td">100</td>
+            </tr>
+            <tr class="tr">
+                <td class="text-middle">02</td>
+                <td class="td">Note</td>
+                <td class="text-middle td">8</td>
+                <td class="text-middle td">10</td>
+            </tr>
+            <tr class="tr">
+                <td class="text-middle td">03</td>
+                <td class="td">Pencil</td>
+                <td class="text-middle td">32</td>
+                <td class="text-middle td">50</td>
+            </tr>
+            <tr class="tr">
+                <td class="text-middle td">04</td>
+                <td class="td">Sticky</td>
+                <td class="text-middle td">24</td>
+                <td class="text-middle td">40</td>
+            </tr>
+        </tbody>
+    </table>
+    
+</body>
+</html>
